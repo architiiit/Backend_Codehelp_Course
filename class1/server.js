@@ -14,7 +14,7 @@ const bodyParser=require('body-parser');
 
 //specifically parse JSON data & add it to request.Body object
 app.use(bodyParser.json());
-
+ 
 //activate server at 3000 port
 app.listen(3000,()=>{
     console.log('Server started at port number 3000');
